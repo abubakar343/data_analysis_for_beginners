@@ -5,7 +5,7 @@ from google.colab import files
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
-df = pd.read_excel("your_data.xlsx")
+df = pd.read_excel("data_sales.xlsx")
 
 #Basic Understanding and EDA of the dataset
 df.head(5)
